@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Peepu Bank</title>
+    <link rel="stylesheet" href="signup-style.css">
+</head>
+<body>
+
+    <div class="signup-container">
+        <h2>Join Peepu Bank</h2>
+        <p>Create an account to start banking</p>
+        
+        <form action="/signup" method="post">
+            <input type="text" placeholder="Full Name" required name="name">
+            <input type="email" placeholder="Email Address" required name="email">
+            <input type="text" placeholder="Choose Username" required name="username">
+            <input type="password" placeholder="Create Password" required name="password">
+            <input type="password" placeholder="Confirm Password" required name="confirmPassword">
+            
+            <button type="submit">Create Account</button>
+        </form>
+        
+        <div class="footer-links">
+            <a href="/login">Already have an account? Login</a>
+        </div>
+    </div>
+
+</body>
+</html>
